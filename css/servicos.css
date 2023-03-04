@@ -1,60 +1,13 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    background-color: #ffffff;
-    font-family: 'Open Sans', sans-serif !important;
-    width: 100%;
-}
-.color ul li a {
-    font-size: 15px !important;
-    font-weight: bold !important;
-    color: #036578 !important;
-}
-
-.contato {
-    color: #ffffff !important;
-    
-}
-
-button {
-
-    border-radius: 0px !important;
-    color: #ffffff !important;
-    background-color: #036578 !important;
-    
-}
-
-.b1 {
-    border-radius: 0px !important;
-    color: #036578 !important;
-    border: 2.1px solid #036578;
-    background-color: transparent !important;
-}
-
-footer {
-    width: 100%;
-    height: 45vh;
-}
-
-.roda {
-    margin-top: 19vw;
-}
-
-.certificados {
-justify-content: center!important;
-    background-position: bottom;
-    background-image: url(/img/selo\ 1.png);
-    width: 100%;
-    height: 40vh;
-    background-size: contain;
-
-    background-repeat: no-repeat;
-}
-.just{
+header{
+        height: 200px;        
+}.just{
 
         height: auto;
         width:100%; 
 } 
-
+.servicos {
+font-size: 128px;
+font-weight: 800;
+text-align: center;
+color: var(--azul-ciano2)
+}
