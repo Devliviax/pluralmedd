@@ -34,7 +34,7 @@ header {
     background-position: center;
 }
 button {
-    border-radius: 0px !important;
+    border-radius: 0px ;
     color: var(--branco) !important;
     background-color: var(--azul-ciano) !important;
     font-weight: bold !important;
