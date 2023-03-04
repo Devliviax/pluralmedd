@@ -5,12 +5,14 @@
     padding: 0px;
 }
 :root{
+    --azul-claro2: #00C2C2;
     --azul-ciano: #036578;
     --azul-ciano2: #00657A;
     --azul-claro: #44C7C7;
     --azul-escuro: #1F3672; 
     --cinza-claro: #727272;
-    --branco: #fff;  
+    --branco: #fff;
+    --catarro: ;  
 }
 #navbar {
     overflow: hidden;
