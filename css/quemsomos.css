@@ -24,14 +24,14 @@ body {
 }
 
 .contato {
-font-size: 12px !important;
+    font-size: 12px !important;
     color: #ffffff !important;
     text-decoration: none !important;
     font-weight: 700 !important;
 }
 
 button {
-font-weight: bolder !important;
+    font-weight: bolder !important;
     border-radius: 0px !important;
     color: #ffffff !important;
     background-color: #036578 !important;
@@ -44,15 +44,47 @@ font-weight: bolder !important;
     border: 2.1px solid #036578;
     background-color: transparent !important;
 }
+p{
+    color: #00657A;
+    font-size: 48px;
+     font-weight: normal;
+}
+h1{
+    color: #00657A;
+    font-size: 73px;
+    font-weight: 800;
+}
+.letras{
+    margin-top: 56px;
+}
+/* circulos /
+.ccc {
+    background:#00657A;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circulos{
+    width: 100%;
+    height: auto;
+}
+/  /
+.palavras{
+   margin-top: 60px;
 
-/*  */
+font-size: 28px;
+
+display: flex;
+align-items: cent
+text-align: center;
+
+color: #00657A;
+}
+
+/  */
  @media (min-width: 310px) and (max-width: 1356px) {
-
+    
      .nav-list {
          display: none;
      }
-
-
-
-
- }
+}
