@@ -152,6 +152,7 @@ span {
 }
 .redesocial ul li{
 text-decoration: none !important;
+display: inline-block;
 }
 .pull-right {
     float: right !important;
