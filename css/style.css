@@ -10,11 +10,16 @@ header {
 .informacoes{
     width: 100%;
     background-color: var(--azul-claro);
-    height: 370vh;
+    height: 100%;
     background-size: contain;
     background-position: center;
 }
-
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .noticia{
     width: 100%;
     height: 100vh; 
@@ -46,8 +51,10 @@ font-weight:bold;
     background-image: url(/img/forma\ 2.png);
     background-size: 90vw !important;
     width: 100%;
-    height: 120vh;
+    height: 900px;
     background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
 }
 
 .card{
@@ -107,6 +114,9 @@ span {
 .c2{
     width: 100%;
     height: auto;
+}
+.c2 > img {
+    width: 100%;
 }
 
 /* fim noticias */
